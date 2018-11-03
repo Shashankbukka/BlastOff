@@ -22,9 +22,10 @@ GameObject:
   - component: {fileID: 33734853906183212}
   - component: {fileID: 23646697066669342}
   - component: {fileID: 65577477494590398}
+  - component: {fileID: 114569037017845062}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Friendly
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,13 +36,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1818701393244090}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2.66, y: 16.69, z: 0}
-  m_LocalScale: {x: 13.442387, y: 1, z: 9.377681}
+  m_LocalRotation: {x: -0, y: -0, z: 0.7729891, w: 0.6344194}
+  m_LocalPosition: {x: 26.243383, y: 32.233955, z: -111.57594}
+  m_LocalScale: {x: 33.002132, y: 3.378002, z: 9.377681}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 101.246}
 --- !u!23 &23646697066669342
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -96,3 +97,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114569037017845062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1818701393244090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f704409db21443f47b2782c996261faf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVec: {x: 10, y: 0, z: 0}
+  period: 2
+  movementFactor: 0.509

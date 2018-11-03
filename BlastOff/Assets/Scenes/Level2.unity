@@ -44,7 +44,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -89,7 +89,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000002, guid: 7955fe67edbeffe4992fcdf6fec5dd8c,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -171,7 +172,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -339,7 +340,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -418,7 +419,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -502,7 +503,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -675,7 +676,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -740,6 +741,11 @@ Prefab:
       propertyPath: m_LocalScale.x
       value: 5.6414
       objectReference: {fileID: 0}
+    - target: {fileID: 23780526949938042, guid: 2618bd9e417728048ae09422cf08debe,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9163d52bf5d021f4ca7ce194db23bee2, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2618bd9e417728048ae09422cf08debe, type: 2}
   m_IsPrefabAsset: 0
@@ -801,7 +807,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -986,7 +992,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1070,7 +1076,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1149,7 +1155,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1229,7 +1235,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1313,7 +1319,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -1447,7 +1453,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1371102822391558, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_TagString
-      value: Friendly
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 4591809962890736, guid: 2bde39ae4e418cd45863d594fcb8ad9a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
