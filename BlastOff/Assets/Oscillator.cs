@@ -12,7 +12,7 @@ public class Oscillator : MonoBehaviour {
     const float Pi = 3.14f;
 
     //A movement Factor to control the swing in Range 0 to 1
-    [Range(0.01f,1)] [SerializeField] float movementFactor = 0.0f;
+    float movementFactor;
 
     Vector3 startingPosition;
 
@@ -26,7 +26,7 @@ public class Oscillator : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
-      
+        if (period <= Mathf.Epsilon) { return; }
         float cycles = Time.time / period;
         float fullSineWave = Mathf.Sin(cycles * Pi * 2);
         movementFactor = (fullSineWave / 2) + 0.5f;

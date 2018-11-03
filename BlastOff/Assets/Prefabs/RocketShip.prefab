@@ -64,6 +64,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &1504178688459142
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4827655029070198}
+  - component: {fileID: 108330509661691102}
+  m_Layer: 0
+  m_Name: Spot Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1743177411970950
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,7 +177,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.04, y: 1.5600002, z: 0}
   m_LocalScale: {x: 1.0108922, y: 2.0852058, z: 0.95852}
-  m_Children: []
+  m_Children:
+  - {fileID: 4827655029070198}
   m_Father: {fileID: 4797687846584176}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -237,6 +254,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4827655029070198
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504178688459142}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.071, y: 0.693, z: -0.041731004}
+  m_LocalScale: {x: 0.9892252, y: 1.0432756, z: 0.4795692}
+  m_Children: []
+  m_Father: {fileID: 4241138391407114}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!4 &4969797904914234
 Transform:
   m_ObjectHideFlags: 1
@@ -577,6 +607,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!108 &108330509661691102
+Light:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504178688459142}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 0, g: 0.056325626, b: 0.9811321, a: 1}
+  m_Intensity: 20
+  m_Range: 30
+  m_SpotAngle: 72
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!114 &114459595903800184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -590,6 +657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rthrustVal: 150
   uthrustVal: 10
+  levelLoadDelay: 1
   thrustSound: {fileID: 8300000, guid: 774a802961a2f2449ab74b663dc9c9a2, type: 3}
   deathSound: {fileID: 8300000, guid: bd84cd47651ab3241b62cb7fbeacfed1, type: 3}
   winSound: {fileID: 8300000, guid: 56b0c151cd3848d4a8831eee363ddf3b, type: 3}
