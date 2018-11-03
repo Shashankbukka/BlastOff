@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Tip
+  m_Name: Platform
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
   m_LightmapFlags: 2
@@ -60,7 +60,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _GlossMapScale: 1
-    - _Glossiness: 0.5
+    - _Glossiness: 0
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
@@ -72,5 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.14578141, g: 0.31200197, b: 0.49056602, a: 1}
-    - _EmissionColor: {r: 0.004449993, g: 0.6138961, b: 0.9433962, a: 1}
+    - _Color: {r: 0.9150943, g: 0.26780573, b: 0.082013145, a: 1}
+    - _EmissionColor: {r: 0.9245283, g: 0.11580702, b: 0.100302614, a: 1}
